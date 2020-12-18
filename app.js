@@ -6,6 +6,6 @@ server.get("/",(req,res,next) => {
     console.log("someone get menu");
     res.send("menu: what do you want? food or water");
 })
-server.listen(5000, () =>{
-    console.log("server is running on port " + PORT);
+server.listen(PORT, () =>{
+    console.log("server is running on  " + PORT);
 })
